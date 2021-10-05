@@ -3,15 +3,15 @@ Projet C++ de L2 : Création d'application de transactions
 
 # Auteurs : 
 
-. Marc-Eli CROAIN </br>
-. Gauthier ROUSSEL </br>
-. Antoine CAILLAUD </br>
+- Marc-Eli CROAIN </br>
+- Gauthier ROUSSEL </br>
+- Antoine CAILLAUD </br>
 
 # Technologies :
 
-. C++ </br>
-. QT  </br>
-. SQLITE </br>
+- C++ </br>
+- QT  </br>
+- SQLITE </br>
 
 
 # Description :
