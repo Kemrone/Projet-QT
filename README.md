@@ -26,12 +26,12 @@ Projet C++ de L2 : Création d'application de transactions
  
 - On doit pouvoir enregistrer les Transactions pour chaque utilisateur, et retrouver la liste de ces dernières. </br>
 - On doit également pouvoir donner une note et un avis sur un fournisseur.  </br>
-- Une partie admin sera dédiée a l'ajout, suppression et modifications d'éléments existant (CRUD).  </br>
+- Une partie admin sera dédiée à l'ajout, suppression et modifications d'éléments existant (CRUD).  </br>
 - On aimerait pouvoir imprimer un Compte rendu pour chaque transaction.  </br>
 
 # Autre :
 
-Le ficheir "CR.pdf" peut etre consulté pour un résumé rapide du projet.
+Le fichier "CR.pdf" peut être consulté pour un résumé rapide du projet.
 
 
 
