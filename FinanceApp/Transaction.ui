@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Transaction</class>
+ <widget class="QDialog" name="Transaction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>717</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : white;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>300</number>
+   </property>
+   <property name="topMargin">
+    <number>100</number>
+   </property>
+   <property name="rightMargin">
+    <number>300</number>
+   </property>
+   <property name="bottomMargin">
+    <number>100</number>
+   </property>
+   <item>
+    <widget class="QPushButton" name="dotation">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>125</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0, stop:0 rgba(99, 255, 2, 255), stop:1 rgba(255, 255, 255, 255))
+</string>
+     </property>
+     <property name="text">
+      <string>Dotation</string>
+     </property>
+     <property name="autoRepeatInterval">
+      <number>100</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="depense">
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>125</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0, stop:0 rgba(99, 255, 2, 255), stop:1 rgba(255, 255, 255, 255))</string>
+     </property>
+     <property name="text">
+      <string>Depense</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="transfert">
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>125</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0, stop:0 rgba(99, 255, 2, 255), stop:1 rgba(255, 255, 255, 255))</string>
+     </property>
+     <property name="text">
+      <string>Transfert de fonds</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="menu">
+     <property name="maximumSize">
+      <size>
+       <width>300</width>
+       <height>125</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0, stop:0 rgba(255, 255, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+     </property>
+     <property name="text">
+      <string>Menu</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>images/star-full-icon.png</file>
+        <file>images/emptyStar.png</file>
+        <file>images/financeImg4.png</file>
+        <file>images/avis.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>BDD/projetFinance.sqlite</file>
+    </qresource>
+</RCC>

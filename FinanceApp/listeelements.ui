@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListeElements</class>
+ <widget class="QDialog" name="ListeElements">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>737</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>liste</string>
+  </property>
+  <widget class="QTableView" name="articleList">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>231</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ChapComboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="SousChapComboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>161</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="progList">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>170</y>
+     <width>231</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PreviousButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Retour</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="TransactionList">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>170</y>
+     <width>231</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="printButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>430</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Imprimer recap</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteChapButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>70</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete chapitre</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteSousChapButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>120</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete sousChap</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteArticleButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>430</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete article</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteProgButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>430</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Delete programme</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
