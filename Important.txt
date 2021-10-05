@@ -1,0 +1,10 @@
+﻿/* Dans la classe "connexion.cpp"; merci de changer le path to file de la fonctione "connecter".
+
+	Actuellement  :  db.setDatabaseName("C:/Users/marc-eli/Desktop/prjt/ProjetL2/ProjetHemza/projetOk/BDD/projetFinance.sqlite");
+									
+						^		^		^		^
+						|		|		|		|
+						|		|		|		|
+
+							Remplacer cette partie avec l'adresse de la base de
+							donnée (projetFinance.sqlite)sur votre pc.
